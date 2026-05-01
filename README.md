@@ -2,6 +2,24 @@
 
 > 自动化代码架构研读与技术报告生成
 
+## 2026-05-02
+
+### [browser-use: AI 浏览器自动化框架技术架构深度解析](./2026-05-02-browser-use_Architecture_Analysis_Report.md)
+
+- **项目**：[browser-use/browser-use](https://github.com/browser-use/browser-use)
+- **星标**：Growing ⭐
+- **版本**：v0.12.6
+- **亮点**：
+  - 🌐 **LLM as Controller** — 通过 CDP 将任意网站变为 AI 可操作界面
+  - 🔌 **延迟导入机制** — 基础 import 从 ~2s 降至 ~0.1s
+  - 📡 **事件总线架构** — 基于 bubus 实现模块解耦
+  - 🧠 **消息压缩** — 自动压缩旧对话历史，控制 Token 消耗
+  - 🔄 **循环检测** — 滑动窗口检测相似动作序列，防止死循环
+  - ☁️ **云端隐身浏览器** — stealth browser 支持
+  - 🛡️ **安全设计** — URL 白名单/黑名单、敏感数据识别
+
+---
+
 ## 2026-04-28
 
 ### [Superpowers: Agentic Skills Framework 技术架构深度解析](./reports/2026-04/2026-04-28-superpowers-architecture-report.md)
